@@ -1,5 +1,5 @@
 
-/* ..................  1st part................. */
+/* ..................  Nav bar Updated  ................. */
 
 .hide{
     display: none;
@@ -74,12 +74,19 @@ nav ul a {
      border-radius: 5px;
 }
 
+header {
+    background-image: none;
+}
+
 .btn-primary a {
     text-decoration: none;
     font-size: 14px;
     color: white;
     font-weight: bold;
 }
+
+/* ..................  Banner Updated  ................. */
+
 .banner {
     margin-left: 170px;
     display: flex;
@@ -114,9 +121,40 @@ nav ul a {
 
 }
 
+@media screen and (max-width:576px) {
+    .banner{
+        flex-direction: column;
+        margin: 5%;
+        padding: 5%;
+    }
+
+    .banner-content h1{
+        font-size: 60px;
+        line-height: 68px;
+    }
+
+    .banner-content h4{
+      font-size: 28px;
+    }
+    
+    .banner-content p {
+       font-size: 14px;
+    }
+
+    .btn-primary {
+        padding: 4px 8 px;
+        font-size: 11px;
+        margin-bottom: 30px;
+    }
+
+    .banner img {
+        display: none;
+    }
+}
 
 
-/* ..................  2nd part  ................. */
+
+/* ..................  About Section Updated  ................. */
 
 
 .about h3 {
@@ -169,11 +207,12 @@ nav ul a {
 @media screen and (max-width:576px) {
 
   .about{
-    border: 2px solid coral;
     margin: 7%;
+    margin-top: 80px;
     padding: 5%;
   }
     .card{
+
         display: flex;
         gap: 19px;
         flex-direction: column;
@@ -186,7 +225,7 @@ nav ul a {
 
 }
 
-/* ..................  3rd part  ................. */
+/* ..................  What I Do Section Updated  ................. */
 
 
 .what-i-do {
@@ -259,7 +298,7 @@ nav ul a {
 }
 
 
-/* ..................  4th part  ................. */
+/* ..................  Resume Part Section ................. */
 
 .resume{
     margin-top: 140px;
@@ -330,7 +369,7 @@ nav ul a {
 
 }
 
-/* ..................  5th part  ................. */
+/* ..................  Footer Updated  ................. */
 
 .foot{
     background-color: #FFF8F3;
@@ -342,7 +381,7 @@ nav ul a {
     
     margin-bottom: 0px;
     display: flex;
-    gap: 110px;
+    gap: 70px;
 }
 
 .text{
@@ -398,14 +437,13 @@ input::placeholder,textarea::placeholder{
     .foot{
         width: auto;
         margin: 5%;
-        margin-right: 0;
+       
         padding: 5%;  
     }
     .foot-container{
         display: flex;
         flex-direction: column;
     }
-    
 
 
     .input input, textarea {
