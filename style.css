@@ -1,7 +1,9 @@
 
 /* ..................  1st part................. */
 
-
+.hide{
+    display: none;
+}
 
 header{
     background-color: #FFF8F3;
@@ -18,6 +20,11 @@ header{
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+}
+
+main{
+    max-width: 1000px;
+    margin: auto;
 }
 
 nav {
@@ -120,7 +127,7 @@ nav ul a {
 }
 
 .about{
-    margin: 190px;
+    margin-top: 140px;
     background-color: #FFF8F3;
     padding: 110px;
     border-radius: 10px;
@@ -162,6 +169,7 @@ nav ul a {
 @media screen and (max-width:576px) {
 
   .about{
+    border: 2px solid coral;
     margin: 7%;
     padding: 5%;
   }
@@ -171,7 +179,6 @@ nav ul a {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 80%;
         padding: 2%;
         
     }
@@ -183,7 +190,8 @@ nav ul a {
 
 
 .what-i-do {
-    margin: 190px;
+    
+    margin-top: 140px;
     text-align: center;
     
 }
@@ -234,8 +242,8 @@ nav ul a {
         display: flex;
         flex-direction: column;
         width: auto;
-        margin: 10%;
-        padding: 7%;  
+        margin: 7%;
+        padding: 5%;  
        
     }
     .skills{
@@ -254,8 +262,8 @@ nav ul a {
 /* ..................  4th part  ................. */
 
 .resume{
-    margin: 190px;
-    
+    margin-top: 140px;
+    margin-bottom: 140px;
 }
 
 .resume-container{
@@ -266,6 +274,7 @@ nav ul a {
 .resume h3 {
     text-align: center;
     font-size: 37px;
+    margin-bottom: 70px;
 }
 
 .resume-container h3 {
