@@ -1,9 +1,7 @@
 
 /* ..................  Nav bar Updated  ................. */
 
-.hide{
-    display: none;
-}
+
 
 header{
     background-color: #FFF8F3;
@@ -57,7 +55,13 @@ nav ul li {
 
 nav ul a {
     text-decoration: none;
+    cursor: pointer;
 }
+
+nav ul a:hover{
+    color: #FD6E0A;
+}
+
 
 .dark-2 {
     color: #474747;
@@ -72,6 +76,11 @@ nav ul a {
      font-weight: bold;
      border: none;
      border-radius: 5px;
+     cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #d85d05;
 }
 
 header {
@@ -261,8 +270,12 @@ header {
     
     padding: 26px;
     box-shadow: 0px 6px 30px 0px #e9e8e8 ;
+    cursor: pointer;
     
-    
+}
+
+.js:hover, .react:hover, .node:hover, .mongodb:hover{
+    border: 2px solid #fd6f0a49 ;
 }
 
 .js p, .react p, .node p, .mongodb p{
@@ -326,6 +339,7 @@ header {
     text-align: left;
     
 }
+
 
 .resume-container h5{
     font-weight: bold;
